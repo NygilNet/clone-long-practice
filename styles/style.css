@@ -36,7 +36,6 @@ header {
 .events__container {
     display: flex;
     flex-flow: row wrap;
-    padding: 32px;
     margin: 0 auto;
     max-width: 1400px;
     justify-content: space-between;
@@ -44,7 +43,7 @@ header {
 
 .events__group {
     display: grid;
-    width: 80%;
+    width: 100%;
     grid-template-columns: 1fr auto 1fr;
 
     grid-template-areas:
@@ -63,6 +62,17 @@ header {
 
 .events__event-3 {
     grid-area: th;
+}
+
+.events__see-more {
+    display: flex;
+    justify-content: center;
+}
+
+.events__see-more-button {
+    border-color: #6f7287;
+    width: 33%;
+    height: 50px;
 }
 
 footer {
