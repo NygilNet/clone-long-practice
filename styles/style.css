@@ -85,6 +85,7 @@ header {
     ;
 
     width: 95%;
+    max-width: 700px;
 
 }
 
@@ -93,6 +94,7 @@ header {
 
 
     width: 100%;
+    max-width: 450px;
     height: 100%%;
 }
 
@@ -123,13 +125,15 @@ header {
     ". out-price"
     ;
 
-    width: 95%
+    width: 95%;
+    max-width: 700px;
 }
 
  #outdoor-image {
     grid-area: out-img;
 
     width: 100%;
+    max-width: 450px;
     height: 100%;
 }
 
@@ -161,12 +165,14 @@ header {
     ;
 
     width: 95%;
+    max-width: 700px;
 }
 
 #dance-image {
     grid-area: dance-img;
 
     width: 100%;
+    max-width: 450px;
     height: 100%;
 }
 
