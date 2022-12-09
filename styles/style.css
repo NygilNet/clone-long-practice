@@ -18,16 +18,19 @@ header {
     justify-content: space-around;
     margin: 0 auto;
 
-
+    width: 100%;
 }
 
 #page-title {
     color: #f05537;
 }
 
+
+
 .nav > a {
     color: #f05537;
     text-decoration: none;
+    margin: 0 10px;
 }
 
 .tabbed-categories__trending > a {
