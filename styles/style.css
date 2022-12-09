@@ -153,6 +153,7 @@ header {
     ;
 
     max-width: 600px;
+    padding: 50px
 }
 
 #dance-image {
@@ -160,7 +161,7 @@ header {
 
     width: 430px;
     height: 300px;
-    padding: 50px
+
 }
 
 #dance-name {
