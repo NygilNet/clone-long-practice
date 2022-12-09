@@ -80,7 +80,7 @@ header {
     grid-template-areas:
     "disco-img disco-img"
     "disco-name disco-name"
-    "disco-date ."
+    "disco-date disco-date"
     ". disco-price"
     ;
 
@@ -116,7 +116,7 @@ header {
     grid-template-areas:
     "out-img out-img"
     "out-name out-name"
-    "out-date ."
+    "out-date out-date"
     ". out-price"
     ;
 
@@ -151,7 +151,7 @@ header {
     grid-template-areas:
     "dance-img dance-img"
     "dance-name dance-name"
-    "dance-date ."
+    "dance-date dance-date"
     ". dance-price"
     ;
 
@@ -232,5 +232,9 @@ footer {
     .events__group {
         display: flex;
         flex-direction: column;
+    }
+
+    #disco-name, #disco-date, #outdoor-name, #outdoor-date, #dance-name, #dance-date {
+        text-align: center;
     }
 }
