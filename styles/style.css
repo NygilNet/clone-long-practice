@@ -94,7 +94,7 @@ header {
     ". disco-price"
     ;
 
-    max-width: 600px;
+    width: 420px;
 
     padding: 50px;
 }
@@ -103,7 +103,7 @@ header {
     grid-area: disco-img;
 
 
-    width: 430px;
+    width: 100%;
     height: 300px;
 }
 
@@ -130,7 +130,7 @@ header {
     ". out-price"
     ;
 
-    max-width: 600px;
+    width: 420px;
 
     padding: 50px;
 }
@@ -138,7 +138,7 @@ header {
  #outdoor-image {
     grid-area: out-img;
 
-    width: 430px;
+    width: 100%;
     height: 300px;
 }
 
@@ -165,14 +165,14 @@ header {
     ". dance-price"
     ;
 
-    max-width: 600px;
+    width: 420px;
     padding: 50px
 }
 
 #dance-image {
     grid-area: dance-img;
 
-    width: 430px;
+    width: 100%;
     height: 300px;
 
 }
