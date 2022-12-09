@@ -25,6 +25,16 @@ header {
     color: #f05537;
 }
 
+.header-nav#search {
+    border: 1px solid black;
+    background-color: #eeedf2;
+}
+
+.header-nav#search >input {
+    border: none;
+    background-color: #eeedf2;
+}
+
 
 
 .nav > a {
@@ -215,7 +225,7 @@ footer {
         align-items: center;
     }
 
-    .header-nav__search {
+    .header-nav#search {
         width: 100%;
     }
 
