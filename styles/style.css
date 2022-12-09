@@ -51,29 +51,26 @@ header {
     border: 1px solid #6f7287;
 }
 
+#events {
+    width: 100%;
+}
+
 .events__container {
     display: flex;
     flex-flow: row wrap;
     max-width: 100%;
-    justify-content: space-between;
+
 }
 
 .events__group {
     display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content:  center;
+
     width: 100%;
-    grid-template-columns: 1fr  1fr;
-    grid-template-rows: auto auto;
-
-    grid-template-areas:
-    'on tw'
-    'th .'
-    ;
 }
 
-.events__event-1 {
-    grid-area: on;
-    height: auto;
-}
+
 
 .picture-card#disco {
     display: grid;
@@ -84,18 +81,17 @@ header {
     ". disco-price"
     ;
 
-    width: 95%;
-    max-width: 700px;
+    max-width: 600px;
 
+    padding: 50px;
 }
 
 #disco-image {
     grid-area: disco-img;
 
 
-    width: 100%;
-    max-width: 450px;
-    height: 100%%;
+    width: 430px;
+    height: 300px;
 }
 
 #disco-name {
@@ -111,10 +107,6 @@ header {
     text-align: end;
 }
 
-.events__event-2 {
-    grid-area: tw;
-    height: auto;
-}
 
 .picture-card#outdoor {
     display: grid;
@@ -125,16 +117,16 @@ header {
     ". out-price"
     ;
 
-    width: 95%;
-    max-width: 700px;
+    max-width: 600px;
+
+    padding: 50px;
 }
 
  #outdoor-image {
     grid-area: out-img;
 
-    width: 100%;
-    max-width: 450px;
-    height: 100%;
+    width: 430px;
+    height: 300px;
 }
 
 #outdoor-name {
@@ -150,10 +142,6 @@ header {
     text-align: end;
 }
 
-.events__event-3 {
-    grid-area: th;
-    height: auto;
-}
 
 .picture-card#dance {
     display: grid;
@@ -164,16 +152,15 @@ header {
     ". dance-price"
     ;
 
-    width: 95%;
-    max-width: 700px;
+    max-width: 600px;
 }
 
 #dance-image {
     grid-area: dance-img;
 
-    width: 100%;
-    max-width: 450px;
-    height: 100%;
+    width: 430px;
+    height: 300px;
+    padding: 50px
 }
 
 #dance-name {
